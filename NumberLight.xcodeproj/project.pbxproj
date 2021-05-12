@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C175CBC0A486942E536E602 /* Pods_NumberLight_NumberLightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC2E50D615E537A41E92C3A /* Pods_NumberLight_NumberLightUITests.framework */; };
+		1170388509FB5BCCD4699E2A /* Pods_NumberLightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C087319351BE33F1DAB9F1D /* Pods_NumberLightTests.framework */; };
+		6FC8D3F9264C543F009DE600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8D3F8264C543F009DE600 /* AppDelegate.swift */; };
+		6FC8D3FB264C543F009DE600 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8D3FA264C543F009DE600 /* SceneDelegate.swift */; };
+		6FC8D3FD264C543F009DE600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8D3FC264C543F009DE600 /* ViewController.swift */; };
+		6FC8D400264C543F009DE600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC8D3FE264C543F009DE600 /* Main.storyboard */; };
+		6FC8D402264C5441009DE600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC8D401264C5441009DE600 /* Assets.xcassets */; };
+		6FC8D405264C5441009DE600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC8D403264C5441009DE600 /* LaunchScreen.storyboard */; };
+		6FC8D410264C5441009DE600 /* NumberLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8D40F264C5441009DE600 /* NumberLightTests.swift */; };
+		6FC8D41B264C5442009DE600 /* NumberLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8D41A264C5442009DE600 /* NumberLightUITests.swift */; };
+		D3B46296EC10E4A0D6CA7B2D /* Pods_NumberLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601053ECE68C9A77C5942699 /* Pods_NumberLight.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FC8D40C264C5441009DE600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FC8D3ED264C543F009DE600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FC8D3F4264C543F009DE600;
+			remoteInfo = NumberLight;
+		};
+		6FC8D417264C5442009DE600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FC8D3ED264C543F009DE600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FC8D3F4264C543F009DE600;
+			remoteInfo = NumberLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C087319351BE33F1DAB9F1D /* Pods_NumberLightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberLightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		352FE5F74579E18C06FC6F13 /* Pods-NumberLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberLight.release.xcconfig"; path = "Target Support Files/Pods-NumberLight/Pods-NumberLight.release.xcconfig"; sourceTree = "<group>"; };
+		38E80BB8575740775DAFEE6A /* Pods-NumberLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberLight.debug.xcconfig"; path = "Target Support Files/Pods-NumberLight/Pods-NumberLight.debug.xcconfig"; sourceTree = "<group>"; };
+		601053ECE68C9A77C5942699 /* Pods_NumberLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC8D3F5264C543F009DE600 /* NumberLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC8D3F8264C543F009DE600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FC8D3FA264C543F009DE600 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FC8D3FC264C543F009DE600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FC8D3FF264C543F009DE600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FC8D401264C5441009DE600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FC8D404264C5441009DE600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FC8D406264C5441009DE600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC8D40B264C5441009DE600 /* NumberLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC8D40F264C5441009DE600 /* NumberLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLightTests.swift; sourceTree = "<group>"; };
+		6FC8D411264C5441009DE600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC8D416264C5441009DE600 /* NumberLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC8D41A264C5442009DE600 /* NumberLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLightUITests.swift; sourceTree = "<group>"; };
+		6FC8D41C264C5442009DE600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E5EE11B9DC46CC33C02A21 /* Pods-NumberLightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberLightTests.debug.xcconfig"; path = "Target Support Files/Pods-NumberLightTests/Pods-NumberLightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDF12B57CB4D842CEBDB6C01 /* Pods-NumberLightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberLightTests.release.xcconfig"; path = "Target Support Files/Pods-NumberLightTests/Pods-NumberLightTests.release.xcconfig"; sourceTree = "<group>"; };
+		E10A19426FF9F1A1B5BDCF43 /* Pods-NumberLight-NumberLightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberLight-NumberLightUITests.release.xcconfig"; path = "Target Support Files/Pods-NumberLight-NumberLightUITests/Pods-NumberLight-NumberLightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E125C4F755A8BC825E4DAB06 /* Pods-NumberLight-NumberLightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberLight-NumberLightUITests.debug.xcconfig"; path = "Target Support Files/Pods-NumberLight-NumberLightUITests/Pods-NumberLight-NumberLightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDC2E50D615E537A41E92C3A /* Pods_NumberLight_NumberLightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberLight_NumberLightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FC8D3F2264C543F009DE600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B46296EC10E4A0D6CA7B2D /* Pods_NumberLight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC8D408264C5441009DE600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1170388509FB5BCCD4699E2A /* Pods_NumberLightTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC8D413264C5441009DE600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C175CBC0A486942E536E602 /* Pods_NumberLight_NumberLightUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37DA1814DDF28D8C2A768D05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				601053ECE68C9A77C5942699 /* Pods_NumberLight.framework */,
+				EDC2E50D615E537A41E92C3A /* Pods_NumberLight_NumberLightUITests.framework */,
+				2C087319351BE33F1DAB9F1D /* Pods_NumberLightTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		670C798E5022A39AE744BEFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38E80BB8575740775DAFEE6A /* Pods-NumberLight.debug.xcconfig */,
+				352FE5F74579E18C06FC6F13 /* Pods-NumberLight.release.xcconfig */,
+				E125C4F755A8BC825E4DAB06 /* Pods-NumberLight-NumberLightUITests.debug.xcconfig */,
+				E10A19426FF9F1A1B5BDCF43 /* Pods-NumberLight-NumberLightUITests.release.xcconfig */,
+				B7E5EE11B9DC46CC33C02A21 /* Pods-NumberLightTests.debug.xcconfig */,
+				DDF12B57CB4D842CEBDB6C01 /* Pods-NumberLightTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FC8D3EC264C543F009DE600 = {
+			isa = PBXGroup;
+			children = (
+				6FC8D3F7264C543F009DE600 /* NumberLight */,
+				6FC8D40E264C5441009DE600 /* NumberLightTests */,
+				6FC8D419264C5442009DE600 /* NumberLightUITests */,
+				6FC8D3F6264C543F009DE600 /* Products */,
+				670C798E5022A39AE744BEFF /* Pods */,
+				37DA1814DDF28D8C2A768D05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FC8D3F6264C543F009DE600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FC8D3F5264C543F009DE600 /* NumberLight.app */,
+				6FC8D40B264C5441009DE600 /* NumberLightTests.xctest */,
+				6FC8D416264C5441009DE600 /* NumberLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FC8D3F7264C543F009DE600 /* NumberLight */ = {
+			isa = PBXGroup;
+			children = (
+				6FC8D42B264C5463009DE600 /* src */,
+				6FC8D3FC264C543F009DE600 /* ViewController.swift */,
+				6FC8D406264C5441009DE600 /* Info.plist */,
+			);
+			path = NumberLight;
+			sourceTree = "<group>";
+		};
+		6FC8D40E264C5441009DE600 /* NumberLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FC8D40F264C5441009DE600 /* NumberLightTests.swift */,
+				6FC8D411264C5441009DE600 /* Info.plist */,
+			);
+			path = NumberLightTests;
+			sourceTree = "<group>";
+		};
+		6FC8D419264C5442009DE600 /* NumberLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FC8D41A264C5442009DE600 /* NumberLightUITests.swift */,
+				6FC8D41C264C5442009DE600 /* Info.plist */,
+			);
+			path = NumberLightUITests;
+			sourceTree = "<group>";
+		};
+		6FC8D42B264C5463009DE600 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6FC8D42F264C548A009DE600 /* core */,
+				6FC8D42E264C547B009DE600 /* service */,
+				6FC8D42D264C546F009DE600 /* details */,
+				6FC8D42C264C5469009DE600 /* list */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		6FC8D42C264C5469009DE600 /* list */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		6FC8D42D264C546F009DE600 /* details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = details;
+			sourceTree = "<group>";
+		};
+		6FC8D42E264C547B009DE600 /* service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		6FC8D42F264C548A009DE600 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				6FC8D403264C5441009DE600 /* LaunchScreen.storyboard */,
+				6FC8D401264C5441009DE600 /* Assets.xcassets */,
+				6FC8D3FE264C543F009DE600 /* Main.storyboard */,
+				6FC8D3F8264C543F009DE600 /* AppDelegate.swift */,
+				6FC8D3FA264C543F009DE600 /* SceneDelegate.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FC8D3F4264C543F009DE600 /* NumberLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC8D41F264C5442009DE600 /* Build configuration list for PBXNativeTarget "NumberLight" */;
+			buildPhases = (
+				EA3D0E4655A039C72BF4A82E /* [CP] Check Pods Manifest.lock */,
+				6FC8D3F1264C543F009DE600 /* Sources */,
+				6FC8D3F2264C543F009DE600 /* Frameworks */,
+				6FC8D3F3264C543F009DE600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberLight;
+			productName = NumberLight;
+			productReference = 6FC8D3F5264C543F009DE600 /* NumberLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FC8D40A264C5441009DE600 /* NumberLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC8D422264C5442009DE600 /* Build configuration list for PBXNativeTarget "NumberLightTests" */;
+			buildPhases = (
+				1DDA528F5F09E6727138BAF2 /* [CP] Check Pods Manifest.lock */,
+				6FC8D407264C5441009DE600 /* Sources */,
+				6FC8D408264C5441009DE600 /* Frameworks */,
+				6FC8D409264C5441009DE600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FC8D40D264C5441009DE600 /* PBXTargetDependency */,
+			);
+			name = NumberLightTests;
+			productName = NumberLightTests;
+			productReference = 6FC8D40B264C5441009DE600 /* NumberLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FC8D415264C5441009DE600 /* NumberLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC8D425264C5442009DE600 /* Build configuration list for PBXNativeTarget "NumberLightUITests" */;
+			buildPhases = (
+				713C90028B10F63FF96C302B /* [CP] Check Pods Manifest.lock */,
+				6FC8D412264C5441009DE600 /* Sources */,
+				6FC8D413264C5441009DE600 /* Frameworks */,
+				6FC8D414264C5441009DE600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FC8D418264C5442009DE600 /* PBXTargetDependency */,
+			);
+			name = NumberLightUITests;
+			productName = NumberLightUITests;
+			productReference = 6FC8D416264C5441009DE600 /* NumberLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FC8D3ED264C543F009DE600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					6FC8D3F4264C543F009DE600 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					6FC8D40A264C5441009DE600 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 6FC8D3F4264C543F009DE600;
+					};
+					6FC8D415264C5441009DE600 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 6FC8D3F4264C543F009DE600;
+					};
+				};
+			};
+			buildConfigurationList = 6FC8D3F0264C543F009DE600 /* Build configuration list for PBXProject "NumberLight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FC8D3EC264C543F009DE600;
+			productRefGroup = 6FC8D3F6264C543F009DE600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FC8D3F4264C543F009DE600 /* NumberLight */,
+				6FC8D40A264C5441009DE600 /* NumberLightTests */,
+				6FC8D415264C5441009DE600 /* NumberLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FC8D3F3264C543F009DE600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC8D405264C5441009DE600 /* LaunchScreen.storyboard in Resources */,
+				6FC8D402264C5441009DE600 /* Assets.xcassets in Resources */,
+				6FC8D400264C543F009DE600 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC8D409264C5441009DE600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC8D414264C5441009DE600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DDA528F5F09E6727138BAF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NumberLightTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		713C90028B10F63FF96C302B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NumberLight-NumberLightUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3D0E4655A039C72BF4A82E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NumberLight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FC8D3F1264C543F009DE600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC8D3FD264C543F009DE600 /* ViewController.swift in Sources */,
+				6FC8D3F9264C543F009DE600 /* AppDelegate.swift in Sources */,
+				6FC8D3FB264C543F009DE600 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC8D407264C5441009DE600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC8D410264C5441009DE600 /* NumberLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC8D412264C5441009DE600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC8D41B264C5442009DE600 /* NumberLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FC8D40D264C5441009DE600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FC8D3F4264C543F009DE600 /* NumberLight */;
+			targetProxy = 6FC8D40C264C5441009DE600 /* PBXContainerItemProxy */;
+		};
+		6FC8D418264C5442009DE600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FC8D3F4264C543F009DE600 /* NumberLight */;
+			targetProxy = 6FC8D417264C5442009DE600 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FC8D3FE264C543F009DE600 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FC8D3FF264C543F009DE600 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FC8D403264C5441009DE600 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FC8D404264C5441009DE600 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FC8D41D264C5442009DE600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FC8D41E264C5442009DE600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FC8D420264C5442009DE600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E80BB8575740775DAFEE6A /* Pods-NumberLight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33C23WJB5B;
+				INFOPLIST_FILE = NumberLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwiecien.NumberLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FC8D421264C5442009DE600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352FE5F74579E18C06FC6F13 /* Pods-NumberLight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33C23WJB5B;
+				INFOPLIST_FILE = NumberLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwiecien.NumberLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FC8D423264C5442009DE600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E5EE11B9DC46CC33C02A21 /* Pods-NumberLightTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33C23WJB5B;
+				INFOPLIST_FILE = NumberLightTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwiecien.NumberLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberLight.app/NumberLight";
+			};
+			name = Debug;
+		};
+		6FC8D424264C5442009DE600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF12B57CB4D842CEBDB6C01 /* Pods-NumberLightTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33C23WJB5B;
+				INFOPLIST_FILE = NumberLightTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwiecien.NumberLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberLight.app/NumberLight";
+			};
+			name = Release;
+		};
+		6FC8D426264C5442009DE600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E125C4F755A8BC825E4DAB06 /* Pods-NumberLight-NumberLightUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33C23WJB5B;
+				INFOPLIST_FILE = NumberLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwiecien.NumberLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberLight;
+			};
+			name = Debug;
+		};
+		6FC8D427264C5442009DE600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10A19426FF9F1A1B5BDCF43 /* Pods-NumberLight-NumberLightUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33C23WJB5B;
+				INFOPLIST_FILE = NumberLightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwiecien.NumberLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FC8D3F0264C543F009DE600 /* Build configuration list for PBXProject "NumberLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC8D41D264C5442009DE600 /* Debug */,
+				6FC8D41E264C5442009DE600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FC8D41F264C5442009DE600 /* Build configuration list for PBXNativeTarget "NumberLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC8D420264C5442009DE600 /* Debug */,
+				6FC8D421264C5442009DE600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FC8D422264C5442009DE600 /* Build configuration list for PBXNativeTarget "NumberLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC8D423264C5442009DE600 /* Debug */,
+				6FC8D424264C5442009DE600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FC8D425264C5442009DE600 /* Build configuration list for PBXNativeTarget "NumberLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC8D426264C5442009DE600 /* Debug */,
+				6FC8D427264C5442009DE600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FC8D3ED264C543F009DE600 /* Project object */;
+}

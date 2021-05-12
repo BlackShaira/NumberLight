@@ -1,0 +1,6 @@
+framework module Pods_NumberLightTests {
+  umbrella header "Pods-NumberLightTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
