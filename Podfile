@@ -6,6 +6,8 @@ target 'NumberLight' do
   use_frameworks!
 
   # Pods for NumberLight
+    pod 'Alamofire', '~> 5.2'
+    pod 'AlamofireImage', '~> 4.1'
 
   target 'NumberLightTests' do
     inherit! :search_paths
